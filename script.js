@@ -121,6 +121,32 @@ window.addEventListener("scroll", () => {
 
   const index = Math.floor(progress * cards.length);
 
+window.addEventListener('load', () => {
+  const counters = document.querySelectorAll('.counter span');
+
+  counters.forEach(counter => {
+    const target = +counter.getAttribute('data-target');
+    let current = 0;
+
+    const duration = 2000; // total animation time in ms
+    const stepTime = 20;   // update interval in ms
+    const step = Math.ceil(target / (duration / stepTime));
+
+    const updateCounter = () => {
+      current += step;
+      if (current < target) {
+        counter.textContent = current.toLocaleString();
+        setTimeout(updateCounter, stepTime);
+      } else {
+        counter.textContent = target.toLocaleString();
+      }
+    };
+
+    updateCounter();
+  });
+});
+
+
   cards.forEach((card, i) => {
     if (i === index) {
       card.classList.add("active");
