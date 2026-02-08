@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Header Hover Dropdown</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <!-- HEADER SECTION -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <!-- <div class="logo-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <div class="logo-text">
+                    <div class="brand">LAMP Trust</div>
+                    <div class="tagline">Lighting Academic Paths</div>
+                </div> -->
+                <img src="WhatsApp Image 2026-01-26 at 20.23.34.jpeg" alt="">
+            </a>
+
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>hgd
+            </button>
+
+            <!-- Navigation Menu -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                
+                <li class="dropdown">
+                    <a href="#who-we-are"><i class="fas fa-users"></i> Who We Are <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#about-us"><i class="fas fa-info-circle"></i> About Us</a></li>
+                        <li><a href="#founder"><i class="fas fa-user-tie"></i> Founder</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#what-we-do"><i class="fas fa-hands-helping"></i> What We Do <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#project-try"><i class="fas fa-project-diagram"></i> Project T.R.Y.</a></li>
+                        <li><a href="#green-leaders"><i class="fas fa-seedling"></i> Green Leaders</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                  <a href="#impact"><i class="fas fa-chart-line"></i> Our Impact</a>
+                  <ul class="dropdown-menu">
+                        <li><a href="#about-us"><i class="fas fa-info-circle"></i> Data</a></li>
+                        <li><a href="#founder"><i class="fas fa-user-tie"></i> Reports</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#get-involved"><i class="fas fa-handshake"></i> Get Involved</a>
+                  <ul class="dropdown-menu">
+                        <li><a href="#about-us"><i class="fas fa-info-circle"></i>Volunteer/CSR</a></li>
+      
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="#" class="donate-btn">
+                        <i class="fas fa-heart"></i> Donate Now
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+<!-- <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-rocket"></i>
+                    <img src="WhatsApp Image 2026-01-26 at 20.23.34.jpeg" alt="">
+                </div>
+                
+            </a>
+
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>jd
+            </button>
+
+            <nav class="nav" id="mainNav">
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    
+                   
+                    
+                    <li class="dropdown">
+                        <a href="#"><i class="fas fa-briefcase"></i> Who We Are <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class="fas fa-code"></i> About Us </a></li>
+                            <li><a href="#"><i class="fas fa-paint-brush"></i> Founder</a></li>
+        
+                        </ul>
+                    </li>
+                    
+                     <li class="dropdown">
+                        <a href="#"><i class="fas fa-users"></i> What We Do <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class="fas fa-building"></i> Projecct T.Y.R</a></li>
+                            <li><a href="#"><i class="fas fa-history"></i> Green Leaders</a></li>
+                          
+                        </ul>
+                    </li> 
+
+                    <li class="dropdown">
+                      <a href="#"><i class="fas fa-newspaper"></i> Our Impact</a>
+                      <ul class="dropdown-menu">
+                            <li><a href="#"><i class="fas fa-code"></i> Data </a></li>
+                            <li><a href="#"><i class="fas fa-paint-brush"></i>Reports</a></li>
+        
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                      <a href="#"><i class="fas fa-envelope"></i> Get Involve</a>
+                      <ul class="dropdown-menu">
+                            <li><a href="#"><i class="fas fa-code"></i> Volunteer </a></li>
+                            <li><a href="#"><i class="fas fa-paint-brush"></i>CSR</a></li>
+        
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#" class="apply-btn1">
+                            <i class="fas fa-paper-plane"></i> Donate Us
+                        </a>
+                    </li>
+                    
+                </ul>
+            </nav> -->
+            <!-- <button class="menu-toggle" id="menuToggle">
+    <i class="fas fa-bars"></i>,ghfh
+</button> -->
+        <!-- </div>
+    </header> -->
+
+<div class="hero">
+  <div class="hero-img">
+    <img src="download (1).jpg" alt="ngo">
+  </div>
+  <div class="hero-text">
+    <h2>Don't Let a Learning Gap Become a Dropout</h2>
+    <h1>Lets Learn About <br> New Knowledge And <br> Abilities</h1>
+    <h3>We bridge the academic gap for underprivileged students in North Bengaluru <br> through
+     scientific assessment and remedial coaching</h3>
+    <button id="hero-button">Sponsor Student</button>
+    <button id="hero-button2">Our Programs</button>
+  </div>
+</div>
+<div class="second">
+  <h2 class="second-text">Our achievement</h2>
+  <h1 class="second-text1">
+  Trusted by 25,000+ happy students are joining with us to achieve their goal
+</h1>
+<div class="second-box">
+  <h1>15K+
+Happy students</h1>
+</div>
+<div class="second-box">
+  <h1>4.9
+☆☆☆☆☆Rated 5 out of 5
+Positive Ratings</h1>
+</div>
+<div class="second-box">
+  <h1>100+
+Skilled Teachers</h1>
+</div>
+<div class="second-box">
+  <h1>50+
+Affordable Courses</h1>
+</div>
+</div>
+<!-- <div id="aboutus">
+  <div class="about-box" id="about-img">
+    <img src="ngo1.jpg" alt="">
+  </div>
+  <div class="about-box" id="about-text">
+    <h2>About</h2>
+<h1>Charity healthy <br> people better world</h1>
+<p class="para">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eaque, facilis nihil illum vel exercitationem deleniti obcaecati iure pariatur ipsam laborum nesciunt quod! Itaque est natus aut consectetur, minima laborum!
+  Cumque doloribus molestias quis in laborum, <br>quibusdam odio rem, tempora perferendis laboriosam dolore asperiores voluptate maiores temporibus dicta aliquid nisi iste nam atque assumenda excepturi. Praesentium quidem amet reprehenderit modi.
+</p>
+<ul class="list">
+  <li>h</li>
+  <li>e</li>
+  <li>l</li>
+  <li>l</li>
+</ul>
+<p class="para2">
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, perspiciatis porro. Earum impedit, ut quaerat quis illo aperiam sequi repellat iste tenetur id similique odio assumenda nemo maiores laboriosam cumque!
+</p>
+  </div>
+</div> -->
+<!-- <section class="about-section">
+    <div class="container"> -->
+
+      <!-- Left Image -->
+      <!-- <div class="image-box"> -->
+        <!-- <div class="image-placeholder">IMAGE</div> -->
+         <!-- <img src="ngo1.jpg" alt="">
+      </div> -->
+
+      <!-- Right Content -->
+      <!-- <div class="content-box">
+        <h5>About</h5>
+        <h1>Charity healthy people better world</h1>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Est eaque facilis nihil illum vel exercitationem.
+        </p>
+
+        <ul>
+          <li>Helping children</li>
+          <li>Health support</li>
+          <li>Better education</li>
+          <li>Community care</li>
+        </ul>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Incidunt perspiciatis porro earum impedit.
+        </p>
+      </div>
+
+    </div>
+  </section> -->
+
+<!-- <div class="our-causes">
+  <h1>Our causes</h1>
+  <h2></h2>
+  <div class="box">
+  <div class="our-causes-box" id="cause-box1">
+    <img src="ngo1.jpg" alt="">
+    <h2>Education</h2>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate itaque temporibus, sunt, pariatur aut autem optio qui, eum cupiditate vel quam consectetur. Facere natus aspernatur rem ipsam tempore dicta perspiciatis?
+    </p>
+    <button>
+      Donate
+    </button>
+  </div>
+  <div class="our-causes-box" id="cause-box2">
+    <img src="ngo1.jpg" alt="">
+    <h1>clothes and foods</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic corrupti eligendi impedit at necessitatibus mollitia nulla asperiores tenetur nam illo quis, quia doloribus laudantium, veniam inventore dolorum porro perferendis qui!
+    </p>
+    <button>
+      Donate
+    </button>
+  </div>
+  <div class="our-causes-box" id="cause-box3">
+    <img src="ngo1.jpg" alt="">
+    <h1>clothes and foods</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic corrupti eligendi impedit at necessitatibus mollitia nulla asperiores tenetur nam illo quis, quia doloribus laudantium, veniam inventore dolorum porro perferendis qui!
+    </p>
+    <button>
+      Donate
+    </button>
+  </div>
+  </div>
+</div> -->
+<div class="container-1">
+    <h1>The "Schooling vs. Learning" Paradox</h1>
+    <h2>Reference Year: 2025</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="dot"></div>
+        <div class="content-2">
+          <h3>1. The Arithmetic Crisis</h3>
+          <img src="ngo1.jpg" alt="Arithmetic Crisis">
+          <p class="highlight">ASER 2024:</p>
+          <p>56% of Grade 8 students cannot solve a Grade 4 division problem.</p>
+          <p>Students attempt higher math with missing foundations, creating academic debt.</p>
+          <p>There are three systemic "leaks" in the educational pipeline:
+Social Promotion: Moving students to the next grade based on age rather than mastery of the previous year's standards.
+The "Coverage" Trap: Teachers are often pressured to "cover the curriculum" for standardized tests, even if half the class hasn't grasped the current unit.
+Algorithm vs. Intuition: Many students learn a "procedure" (Long Division) without understanding what division is (sharing into groups). When they forget 
+the steps of the procedure, they have no conceptual safety net.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="dot"></div>
+        <div class="content-2">
+          <h3>2. The Reading Gap</h3>
+          <img src="download (1).jpg" alt="Reading Gap">
+          <p class="highlight">ASER 2024:</p>
+          <p>26.4% of Grade 8 students cannot read a Grade 2 text fluently.</p>
+          <p>This leads to rote memorization instead of comprehension.</p>
+          <p>Cognitive Overload: Their brain is 100% occupied with how to read, leaving 0% for what is being read.
+The Rote Memorization Trap: Because they cannot extract meaning from a paragraph, their only survival mechanism
+ is to memorize the visual patterns of sentences or "answers" provided by a teacher.
+Passive Learning: Rote learning teaches "what to think" rather than "how to think," effectively halting the development of critical thinking skills needed for high school. </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="dot"></div>
+        <div class="content-2">
+          <h3>3. Tuition Dependence</h3>
+          <img src="ngo1.jpg" alt="Tuition Dependence">
+          <p>Private tuition has crossed 30% nationally.</p>
+          <p>Low-income families are left without academic support.</p>
+          <p>Income Disparity: Nationally, approximately 38.8% of students from the wealthiest families receive private tutoring, compared to just 21.6% from the poorest quintile.
+            Household Strain: Coaching costs now account for roughly 43% of total private expenditure on education and nearly 16.5% of per capita household spending for those enrolled.
+            Regional Imbalances: In states like West Bengal, participation rates soar to 75.2%, effectively making school-only education the exception rather than the rule. 
+</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="dot"></div>
+        <div class="content-2">
+          <h3>4. The Smartphone Trap</h3>
+          <img src="WhatsApp Image 2026-01-26 at 20.23.34.jpeg" alt="Smartphone Trap">
+          <p>90% of households own smartphones.</p>
+          <p>Devices are used mainly for entertainment, not learning.</p>
+          <p>Entertainment Over Education: While 82.2% of teenagers (14-16) are proficient in using smartphones, only 57% reported using them for any educational activity in the week preceding the survey. In contrast, 76% used them for social media.
+            Rural Dynamics: In rural communities, the gap is even wider. One study found that while roughly half of students have access, 76.7% primarily use them for video games, and 56.6% for movies, while only 34% use them to download study materials.
+            The Content Trap: Mobile-first audiences are increasingly consuming high volumes of short-form entertainment. By mid-2025, 23% of Indians relied solely on smartphones for all media consumption, a trend skewed toward lower socio-economic groups 
+            where educational guidance is often missing. </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="dot"></div>
+        <div class="content-2">
+          <h3>5. LAMP Trust Validation</h3>
+          <img src="download (1).jpg" alt="Local Impact">
+          <p class="highlight">Project T.R.Y. (2024–25):</p>
+          <p>60% failed Grade 5 math diagnostics.</p>
+          <p>100% passed after a 6-month bridge course.</p>
+          <p>Removal of Cognitive Friction: By going back to Grade 2 or 3 concepts, you remove the "fear" of the page. Once a student masters division or basic fractions, the "impossible" Grade 5 math suddenly becomes logical.
+            The Confidence Dividend: Success in basic math triggers a dopamine response. 
+            Students who previously identified as "bad at math" begin to see themselves as "capable," which is often 50% of the battle.
+            Linear Logic: Math is a sequential language. A bridge course fills the "missing words" in the sentence 
+            so that the full paragraph (Grade 5 curriculum) finally makes sense.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="solution-2">
+      <h3>The Solution</h3><br>
+      <p>
+        We don’t just teach—we rebuild. Project T.R.Y. uses psychometric assessments
+        to personalize learning so every child clears board exams with confidence.
+      </p>
+    </div>
+
+  </div>
+<section class="stack-section">
+  <h2>The Solution: Project T.R.Y.</h2><br>
+  <h3>A scientific, data-driven academic rehabilitation program designed to
+        .</h3>
+  <h4>rebuild foundations — not just complete syllabus</h4>
+  <div class="stack-wrapper">
+
+    <!-- <div class="stack-card bg-1">
+      
+      <p>
+        A scientific, data-driven academic rehabilitation program designed to
+        rebuild foundations — not just complete syllabus.
+      </p>
+    </div> -->
+
+    <div class="stack-card bg-2">
+      <h3>Step 1: Diagnosis</h3><br>
+      <p>
+        The Problem: Schools teach the syllabus, not the child. A Visual Learner is often labeled "slow" in a lecture-based classroom.
+      </p><br>
+      <p>Our Solution: Every student undergoes a Psychometric & Learning Style </p>
+      <u>Assessment upon entry.
+        <br><li>We identify if the child is a Visual, Auditory, or Kinesthetic learner.</li>
+        <li>We conduct a Baseline Diagnostic Test to pinpoint exactly where the foundation cracked
+           (e.g., "Student knows addition but fails at division").</li>
+        <li>Result: A personalized "Learning Map" for every child, not a generic roadmap.</li>
+      </u>
+    </div>
+
+    <div class="stack-card bg-3">
+      <h3>Step 2: Bridge Course</h3><br>
+      <p>
+        <p>The Problem: 56% of Grade 8 students cannot do basic division.</p>
+        <p>
+          Our Solution: A 6-month intensive "Foundational Bridge Course."
+          <ul>
+            <li>We pause the Grade 8 syllabus and revisit Grade 4 & 5 concepts (Division, Fractions, Reading Fluency).</li>
+            <li>We use Manipulative Learning Tools (counters, beads, visual charts) to teach Math conceptually, not just by rote memorization.</li>
+            <li>Result: Once the foundation is fixed, the student naturally catches up to their grade level, turning "fear of Math" into confidence.</li>
+          </ul>
+        </p>
+      </p>
+    </div>
+
+    <div class="stack-card bg-4">
+      <h3>Step 3: Digital Pivot</h3><br>
+      <p>
+        <p>The Problem: Students have smartphones but use them only for entertainment.</p>
+        <p>
+          Our Solution: Digital Literacy & Research Training.
+          <ul>
+            <li>We teach students how to use the internet for Self-Learning (Khan Academy, YouTube Edu, Wikipedia).</li>
+            <li>We train them on basic tools (Word, Excel) to make them employable.</li>
+            <li>Result: Students transform from passive consumers of content to active creators and learners.</li>
+          </ul>
+        </p>
+      </p>
+    </div>
+
+    <div class="stack-card bg-5">
+      <h3>Step 4: Green Discipline</h3><br>
+      <p>
+        <p>The Problem: Academic pressure often creates disconnected, stressed individuals.</p>
+        <p>
+          Our Solution: The Green Leaders Initiative.
+          <ul>
+            <li>Every Saturday, students lead community cleanliness drives and recycling projects.</li>
+            <li>Result: This builds discipline, teamwork, and civic responsibility—traits that improve their academic focus and leadership skills.</li>
+          </ul> <br>
+          <img src="Screenshot 2026-02-07 200001.png" alt="">
+        </p>
+      </p>
+    </div>
+
+    <div class="stack-card bg-6">
+      <h3>Our Purpose</h3> <br>
+      <p>
+        Ensuring no child in North Bengaluru drops out due to lack of academic
+        support — and empowering eco-conscious citizens.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= IMPACT HEADER ================= -->
+ <section class="impact">
+<section class="impact-header reveal">
+  <h1>Impact Report (2019 – 2025)</h1>
+  <p class="tagline">
+    From Remedial to Remarkable: 15 Years of Grassroots Change
+  </p>
+</section>
+
+<!-- ================= HERO COUNTERS ================= -->
+<section class="hero-numbers">
+  <h2 class="reveal" id="reveal">The “Hero” Numbers</h2>
+
+  <div class="counter-grid">
+    <div class="counter reveal">
+      <span data-target="100">0</span>%
+      <p>Board Exam Pass Rate</p>
+    </div>
+
+    <div class="counter reveal">
+      <span data-target="12000">0</span>+
+      <p>Lives Touched</p>
+    </div>
+
+    <div class="counter reveal">
+      <span data-target="3500">0</span>+
+      <p>Youth Upskilled</p>
+    </div>
+
+    <div class="counter reveal">
+      <span data-target="837">0</span>+
+      <p>Students Coached</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DEEP DIVE ================= -->
+<section class="deep-dive">
+  <h2 class="reveal" id="reveal">Breaking the Cycle of Poverty</h2>
+
+  <div class="zigzag">
+    <div class="zig left reveal">
+      <h3>🎓 Academic Excellence</h3>
+      <p><strong>100% retention & pass rate</strong> despite Grade 9 dropout risk.</p>
+      <p>Average score: <strong>76%</strong> (2024–25)</p>
+    </div>
+
+    <div class="zig right reveal">
+      <h3>🌍 The Migrant Miracle</h3>
+      <p>35 out-of-school migrant children reintegrated.</p>
+      <p>100% scored above 50% after 6-month Language Bridge.</p>
+    </div>
+
+    <div class="zig left reveal">
+      <h3>🚀 Livelihood & Future Readiness</h3>
+      <p>3,500+ youth trained in soft skills, digital literacy & career guidance.</p>
+    </div>
+
+    <div class="zig right reveal">
+      <h3>🤝 Community Welfare</h3>
+      <p>12,000+ beneficiaries supported with essentials.</p>
+      <p>Students become civic contributors.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BEFORE / AFTER ================= -->
+<section class="before-after">
+  <h2 class="reveal" id="reveal">Before & After Impact</h2>
+
+  <div class="comparison reveal">
+    <div>
+      <h3>Before</h3>
+      <ul>
+        <li>Fear of asking questions</li>
+        <li>Weak basic math skills</li>
+        <li>Dropout risk</li>
+        <li>No civic awareness</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>After</h3>
+      <ul>
+        <li>Confident peer learning</li>
+        <li>80% accuracy in Algebra</li>
+        <li>Aspiring for higher education</li>
+        <li>Active “Green Leaders”</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= THEORY OF CHANGE ================= -->
+<section class="theory reveal">
+  <h2 id="reveal">Theory of Change</h2>
+
+  <div class="flow">
+    <div>Early Remedial Support</div>
+    <span>→</span>
+    <div>Academic Confidence</div>
+    <span>→</span>
+    <div>No Dropouts</div>
+    <span>→</span>
+    <div>Employed & Civic Citizens</div>
+  </div>
+</section>
+
+<!-- ================= PURPOSE ================= -->
+<section class="purpose reveal">
+  <h2>Our Purpose</h2>
+  <p>
+    To ensure that no child in North Bengaluru drops out of school due to lack of
+    academic support or financial means — and to empower them as responsible,
+    eco-conscious citizens.
+  </p>
+</section>
+</section>
+
+
+<section class="wf-section">
+  <div class="wf-container">
+
+    <!-- CARD 1 -->
+    <div class="wf-card">
+      <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e" alt="clothes donation">
+
+      <div class="wf-content">
+        <h3>Providing Good Clothes For<br>All Poor Children</h3>
+
+        <p class="percent">78% Donated:</p>
+
+        <div class="progress">
+          <div class="progress-fill" style="width:78%"></div>
+        </div>
+
+        <div class="amount">
+          <span>Raised $7,810</span>
+          <span>of $10,000</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="wf-card">
+      <img src="https://images.unsplash.com/photo-1588072432836-e10032774350" alt="education">
+
+      <div class="wf-content">
+        <h3>Basic Education For All The<br>Poor Children</h3>
+
+        <p class="percent">73% Donated:</p>
+
+        <div class="progress">
+          <div class="progress-fill" style="width:73%"></div>
+        </div>
+
+        <div class="amount">
+          <span>Raised $7,270</span>
+          <span>of $10,000</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="wf-card">
+      <img src="https://images.unsplash.com/photo-1542816417-0983c9c9ad53" alt="children">
+
+      <div class="wf-content">
+        <h3>Brilliant After All, A New<br>Album by Rebecca</h3>
+
+        <p class="percent">45% Donated:</p>
+
+        <div class="progress">
+          <div class="progress-fill" style="width:45%"></div>
+        </div>
+
+        <div class="amount">
+          <span>Raised $4,525</span>
+          <span>of $10,000</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="approach-section">
+  <div class="container">
+
+    <!-- LEFT CONTENT -->
+    <div class="content">
+      <h2>
+        Why Our Approach <br>
+        <span>Works Differently</span>
+      </h2>
+
+      <p class="intro">
+        Since 2012, we've pioneered a community-first model that focuses on
+        long-term ecological and social resilience rather than short-term fixes.
+      </p>
+
+      <div class="features">
+        <div class="feature">
+          <div class="icon green">✔</div>
+          <div>
+            <h4>100% Transparency</h4>
+            <p>Every dollar is tracked and reported. We maintain the highest level of accountability.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="icon blue">👥</div>
+          <div>
+            <h4>Local Empowerment</h4>
+            <p>We train local leaders to manage projects sustainably for the long term.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="icon orange">⚡</div>
+          <div>
+            <h4>Rapid Response</h4>
+            <p>Our global network allows us to mobilize volunteers quickly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT VISUAL -->
+    <div class="visual">
+      <div class="blob">
+        
+      </div>
+
+      <div class="stats-card">
+        <div class="heart">❤</div>
+        <div>
+          <h3>12k+</h3>
+          <p>Monthly Supporters</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="impact-section">
+  <div class="overlay"></div>
+
+  <div class="impact-container">
+
+    <div class="impact-box">
+      <div class="icon">$</div>
+      <h2 class="count" data-target="175000">0</h2>
+      <p>RAISED</p>
+    </div>
+
+    <div class="impact-box">
+      <div class="icon">↗</div>
+      <h2 class="count" data-target="367">0</h2>
+      <p>Projects</p>
+    </div>
+
+    <div class="impact-box">
+      <div class="icon">$</div>
+      <h2 class="count" data-target="50000">0</h2>
+      <p>Donations</p>
+    </div>
+
+    <div class="impact-box">
+      <div class="icon">👥</div>
+      <h2 class="count" data-target="100">0</h2>
+      <p>Volunteers</p>
+    </div>
+
+  </div>
+</section>
+<section class="work-section">
+  <div class="work-container">
+
+    <!-- LEFT IMAGE AREA -->
+    <div class="work-images">
+      <img src="https://images.unsplash.com/photo-1544717305-2782549b5136" class="img-back">
+      <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d" class="img-front">
+    </div>
+
+    <!-- RIGHT CONTENT -->
+    <div class="work-content">
+      <h2>How we work</h2>
+
+      <div class="work-item">
+        <div class="icon">🏠</div>
+        <div>
+          <h4>Community centers</h4>
+          <p>Lorem dolor sit amet, consectetur adipiscing elit. Ut elit tellus, nec ullamcorper mattis.</p>
+        </div>
+      </div>
+
+      <div class="work-item">
+        <div class="icon">📊</div>
+        <div>
+          <h4>Data-driven approach</h4>
+          <p>Lorem dolor sit amet, consectetur adipiscing elit. Ut elit tellus, nec ullamcorper mattis.</p>
+        </div>
+      </div>
+
+      <div class="work-item">
+        <div class="icon">🎧</div>
+        <div>
+          <h4>Focused support</h4>
+          <p>Lorem dolor sit amet, consectetur adipiscing elit. Ut elit tellus, nec ullamcorper mattis.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<section class="choose-section">
+
+  <div class="choose-header">
+    <span class="top-text">ONE OF THE BEST AROUND</span>
+    <h2>Why You Should Choose Us</h2>
+
+    <div class="divider">
+      <span></span>
+      <div class="divider-icon">❤</div>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="choose-content">
+
+    <!-- LEFT COLUMN -->
+    <div class="choose-column">
+      <div class="choose-item">
+        <div class="icon">🏷</div>
+        <div>
+          <h4>Best Pricing Guarantee</h4>
+          <p>1–3% guaranteed pricing and fastest access to your funds.</p>
+        </div>
+      </div>
+
+      <div class="choose-item">
+        <div class="icon">🎯</div>
+        <div>
+          <h4>No Goal Requirements</h4>
+          <p>Keep the money you raise whether you beat your goal or not.</p>
+        </div>
+      </div>
+
+      <div class="choose-item">
+        <div class="icon">💰</div>
+        <div>
+          <h4>Maximize tax advantages for your gift</h4>
+          <p>We work with professional advisors to optimize charitable giving.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="choose-column">
+      <div class="choose-item">
+        <div class="icon">🤲</div>
+        <div>
+          <h4>Your Charitable Life</h4>
+          <p>Show the world your charitable impact and manage donations.</p>
+        </div>
+      </div>
+
+      <div class="choose-item">
+        <div class="icon">🌐</div>
+        <div>
+          <h4>Most Trusted</h4>
+          <p>Millions of individuals work with us and connect with donors.</p>
+        </div>
+      </div>
+
+      <div class="choose-item">
+        <div class="icon">🤝</div>
+        <div>
+          <h4>Our experience</h4>
+          <p>Decades of experience with deep community knowledge.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="involved-section">
+
+  <!-- SECTION HEADER -->
+  <div class="involved-header">
+    <h2>Find out more & Get Involved</h2>
+
+    <div class="divider">
+      <span></span>
+      <div class="star">★</div>
+      <span></span>
+    </div>
+  </div>
+
+  <!-- CARDS -->
+  <div class="involved-cards">
+
+    <div class="card red">
+      <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b">
+      <div class="overlay">
+        <div class="content">
+          <div class="icon">🎁</div>
+          <h3>Donation</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="card blue">
+      <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d">
+      <div class="overlay">
+        <div class="content">
+          <div class="icon">❤</div>
+          <h3>Fundraise</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="card purple">
+      <img src="https://images.unsplash.com/photo-1520975922284-9e0ce82759a0">
+      <div class="overlay">
+        <div class="content">
+          <div class="icon">🥂</div>
+          <h3>Happening Now</h3>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<section class="testimonial-section">
+  <h2>What People Say</h2>
+
+  <div class="testimonial-container">
+    <div class="testimonial active">
+      <p>
+        “This organization changed my life. Their support helped my family
+        rebuild with dignity and hope.”
+      </p>
+      <h4>— Rahul Sharma</h4>
+      <span>Donor</span>
+    </div>
+
+    <div class="testimonial">
+      <p>
+        “Transparent, honest, and impactful. I can clearly see where my
+        donations go.”
+      </p>
+      <h4>— Ananya Verma</h4>
+      <span>Volunteer</span>
+    </div>
+
+    <div class="testimonial">
+      <p>
+        “Being part of this NGO gave me purpose. Together we are changing lives.”
+      </p>
+      <h4>— Mohit Singh</h4>
+      <span>Fundraiser</span>
+    </div>
+  </div>
+
+  <!-- CONTROLS -->
+  <div class="controls">
+    <button onclick="prevTestimonial()">❮</button>
+    <button onclick="nextTestimonial()">❯</button>
+  </div>
+
+  <!-- DOTS -->
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+<section class="gallery-section">
+    <h2>Our Gallery</h2>
+
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300" alt="img1">
+      <img src="https://via.placeholder.com/300" alt="img2">
+      <img src="https://via.placeholder.com/300" alt="img3">
+      <img src="https://via.placeholder.com/300" alt="img4">
+      <img src="https://via.placeholder.com/300" alt="img5">
+      <img src="https://via.placeholder.com/300" alt="img6">
+      <img src="https://via.placeholder.com/300" alt="img7">
+      <img src="https://via.placeholder.com/300" alt="img8">
+      <img src="https://via.placeholder.com/300" alt="img9">
+    </div>
+  </section>
+<!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- NGO Photo -->
+      <div class="footer-box">
+        <h3>Our NGO</h3>
+        <img src="https://via.placeholder.com/300x200" alt="NGO Photo">
+      </div>
+
+      <!-- NGO Content -->
+      <div class="footer-box">
+        <h3>About Us</h3>
+        <p>
+          We are a non-profit organization working towards creating a healthy,
+          educated, and better world. Our mission is to support children,
+          families, and communities through education and healthcare.
+        </p>
+      </div>
+       
+      <!-- Google Map -->
+      <div class="footer-box">
+        <h3>Our Location</h3>
+        <iframe 
+          src="https://www.google.com/maps?q=india&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <!-- Social Media -->
+        <div class="social-icons">
+          <h3>Follow us on socail media</h3>
+          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 NGO Organization | All Rights Reserved
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
